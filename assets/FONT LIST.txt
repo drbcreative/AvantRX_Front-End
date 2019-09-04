@@ -1,0 +1,37 @@
+Font Families:
+  - Primary: Palanquin Regular
+  - Secondary: Palanquin Bold
+
+Topbar: N/A
+
+Navbar: Primary, 16, Regular
+
+H1: Secondary, 60, Bold
+
+H2: Secondary, 50, Bold
+
+H3: Secondary, 30, Bold
+
+H4: Secondary, 25, Bold
+
+H5: Secondary, -
+
+H6: Secondary, -
+
+Buttons: Secondary, 15, Bold
+
+Lead Copy: Primary, 18, Regular
+
+Body Copy: Primary, 14, Regular
+
+Testimonial Copy: - N/A
+
+Footer Header: Secondary, 15, Bold
+
+Footer Copy: N/A
+
+Small Copy: Primary, 12, light
+
+Footer Nav: Primary, 14, Regular
+
+Bottom Footer Copy: Primary, 18, Regular

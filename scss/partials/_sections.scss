@@ -1,0 +1,395 @@
+/* -------------------------------------------------------------------------- */
+/* SECTION STYLES */
+/* -------------------------------------------------------------------------- */
+body {
+  position: relative;
+}
+.containerish {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+
+section {
+  overflow: hidden;
+}
+
+.scroll-top {
+  width: 64px;
+  height: 41px;
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 9999999;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  display: none;
+
+  &.show {
+    display: block;
+    opacity: 1;
+    transition: all .2s ease-in-out;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* HERO SECTION */
+/* -------------------------------------------------------------------------- */
+.hero {
+  background: url('../img/hero@2x.jpg') center / cover;
+  height: 75vh;
+  padding: 40px 20px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color-main, .85);
+  }
+  .containerish {
+    position: relative;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .section-info {
+      width: 100%;
+      max-width: 741px;
+    }
+  }
+    .event-ol {
+      background: rgba($color-dark, .8);
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+
+      .event-title {
+        font-family: $font-primary;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18px;
+      }
+      .event-copy {
+        font-family: $font-primary;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 11px;
+      }
+      .event-btn {
+        color: $color-white;
+        font-family: $font-primary;
+        font-size: 10px;
+        font-weight: 700;
+        border: solid 1px $color-white;
+        padding: .3rem 1rem;
+        transition: all .3s ease-in-out;
+        &:hover {
+          background: rgba($color-main, .5);
+          text-decoration: none;
+          transition: all .3s ease-in-out;
+        }
+      }
+    }
+}
+
+/* -------------------------------------------------------------------------- */
+/* SEARCH SECTION */
+/* -------------------------------------------------------------------------- */
+.search {
+  background: $color-white;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .form-control {
+      border-radius: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-control:not(button) {
+      border: 1px solid #ededed;
+    }
+
+    ::placeholder {
+      color: #3e3a42;
+      font-family: $font-primary;
+      font-size: 15px;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* COOLSCULPTING SECTION */
+/* -------------------------------------------------------------------------- */
+.coolsculpting {
+  padding: 40px 20px;
+  background: url('../img/coolsculpting-bg@2x.jpg') center / cover;
+  .containerish {
+    display: flex;
+    flex-direction: column;
+
+    .img-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    .section-info {
+      text-align: center;
+    }
+    
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* ABOUT US SECTION */
+/* -------------------------------------------------------------------------- */
+.aboutus {
+  background: url('../img/aboutus-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+
+  .containerish {
+    .section-info {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .staff-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+      .staff {
+        text-align: center;
+        opacity: 0;
+        transform: scale(1.5);
+        transition: all .3s ease-in-out;
+
+        &.show {
+          opacity: 1;
+          transform: scale(1);
+          transition: all 1s ease-in-out;
+        }
+        img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 1rem;
+        }
+        .staff-title {
+          font-family: $font-primary;
+          font-size: 15px;
+          color: $color-white;
+          margin-bottom: .5rem;
+        }
+        .staff-info {
+          font-family: $font-primary;
+          font-size: 12px;
+          color: $color-white;
+        }
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* SLIDESHOW SECTION */
+/* -------------------------------------------------------------------------- */
+.slideshow {
+  min-height: 400px;
+  background: $color-dark;
+  position: relative;
+
+  #about-us-carousel {
+    display: none;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* NEWSLETTER SECTION */
+/* -------------------------------------------------------------------------- */
+.newsletter {
+  background: #393D47;
+  min-height: 200px;
+  align-items: center;
+
+  .containerish {
+    padding: 40px 20px;
+    display: grid;
+
+    h3,
+    h2,
+    p {
+      text-align: center;
+    }
+
+    p {
+      margin-top: 0.5rem;
+    }
+
+    .form-control {
+      margin-bottom: 0.5rem;
+      border-radius: 0;
+    }
+
+    .form-control:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* BOTOX, FILLERS & HYDRAFACIAL SECTION */
+/* -------------------------------------------------------------------------- */
+.botox-fillers-hydrafacial {
+  padding: 40px 20px;
+  background: url('../img/botox-bg@2x.jpg') center / cover;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .botox-fillers {
+    .containerish {
+      display: grid;
+      grid-gap: 1rem;
+
+      .image-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .hydrafacial {
+    margin-top: 2rem;
+    .containerish {
+      .hydrafacial-content {
+        background: url('../img/hydrafacial-content-bg@2x.jpg') center / cover;
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* TESTIMONIAL SECTION */
+/* -------------------------------------------------------------------------- */
+.testimonial {
+  background: url('../img/testimonials-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+  position: relative;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba($color-main, .85);
+  }
+
+  .containerish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 65;
+
+      .section-info {
+        text-align: center;
+        max-width: 774px;
+        .testimonial-copy {
+          color: white;
+          font-family: $font-primary;
+          font-size: 30px;
+          line-height: 45px;
+          font-style: italic;
+          margin-bottom: 0;
+          text-align: left;
+          display: inline-block;
+        }
+        .testimonial-author {
+          color: white;
+          font-family: $font-primary;
+          font-size: 20;
+          font-weight: 300;
+          text-align: left;
+          font-style: italic;
+          display: inline-block;
+        }
+
+        .carousel-indicators {
+          position: absolute;
+          right: 0;
+          bottom: -40px;
+          left: 0;
+          z-index: 15;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-pack: center;
+          justify-content: flex-start;
+          padding-left: 0;
+          margin-right: 15%;
+          margin-left: 0;
+          list-style: none;
+
+          li {
+            position: relative;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            margin-right: 3px;
+            margin-left: 3px;
+            text-indent: -999px;
+            cursor: pointer;
+            background-color: rgba(255,255,255,.5);
+
+            &.active {
+              background-color: rgba(255,255,255,1);
+            }
+          }
+        }
+      }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* CONSULTATION SECTION */
+/* -------------------------------------------------------------------------- */
+.consultation {
+  min-height: 200px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+
+  .section-info {
+    text-align: center;
+  }
+
+}
+
+/* -------------------------------------------------------------------------- */
+/* ** SECTION */
+/* -------------------------------------------------------------------------- */
+
+
+
+
+

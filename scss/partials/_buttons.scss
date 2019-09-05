@@ -113,6 +113,19 @@
   }
 }
 
+.ui-btn-dark-ol {
+  background-color: transparent;
+  border: 1px solid $color-dark;
+  color: $color-dark;
+
+  &:hover {
+    color: $color-main;
+    background-color: darken(#fff, 15);
+    border: 1px solid darken(#fff, 15);
+    text-decoration: none;
+  }
+}
+
 .ui-btn-light-ol {
   background-color: transparent;
   border: 1px solid $color-light;

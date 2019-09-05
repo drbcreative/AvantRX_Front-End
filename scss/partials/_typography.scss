@@ -4,8 +4,10 @@
 @import "https://use.fontawesome.com/releases/v5.4.1/css/all.css";
 @import url('https://fonts.googleapis.com/css?family=Palanquin:400,700&display=swap');
 
-$font-primary: 'Palanquin', sans-serif;
-$font-secondary: 'Palanquin', sans-serif;
+$font-primary: 'Palanquin',
+sans-serif;
+$font-secondary: 'Palanquin',
+sans-serif;
 
 // General Font Setup
 // Headers
@@ -19,7 +21,6 @@ h5 h6 {
 
 /* Primary Header */
 h1 {
-  //Not used on this project
   font-family: $font-secondary;
   font-size: 3.75rem;
   line-height: 3.75rem;
@@ -72,6 +73,7 @@ h6 {
   font-family: $font-secondary;
   font-weight: 400;
 }
+
 // h1,h2,h3,h4,h5,h6 {
 //     letter-spacing: .25em;
 // }
@@ -144,7 +146,7 @@ input {
 // Font Size Breakpoints
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 250% !important;
+    font-size: 2rem !important;
   }
 
   h2 {

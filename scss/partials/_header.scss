@@ -15,18 +15,14 @@ header {
   height: 30px;
   height: auto;
   // padding: .3rem 0;
-  background-color: $color-white;
+  background-color: transparent;
 
   .containerish {
-    width: 95%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: auto;
     padding: 0;
     display: grid;
     grid-gap: 1rem;
 
-    .col-left {
+    .col-right {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -34,36 +30,6 @@ header {
 
       .social-wrapper {
         margin-right: 2rem;
-      }
-    }
-
-    .col-mid {
-      text-align: center;
-      align-items: center;
-      display: none;
-
-      p {
-        margin: 0;
-      }
-    }
-
-    .col-right {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      .topbar-nav {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-
-        li {
-          display: inline-block;
-        }
-
-        li:not(:last-child) {
-          margin-right: 1rem;
-        }
       }
     }
   }
@@ -85,7 +51,7 @@ header {
   }
 
   .social-link {
-    color: $color-white;
+    color: $color-dark;
     margin-right: 1rem;
 
     &:hover {
@@ -103,25 +69,18 @@ header {
 /* NAVBAR */
 /* -------------------------------------------------------------------------- */
 .nav-wrapper {
-  background: rgba($color-white, 0);
+  // background: rgba($color-white, 0);
+  background: transparent;
   position: relative;
 
   .container {
     position: relative;
-
-    .desktop-logo {
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100px;
-      display: none;
-    }
   }
 }
 
 .navbar {
   .nav-logo {
-    max-width: 190px;
+    max-width: 288.57;
   }
 }
 
@@ -131,7 +90,7 @@ header {
   .nav-link {
     font-family: $font-primary !important;
     color: $color-dark !important;
-    font-size: 0.8125rem;
+    font-size: 1rem;
     font-style: normal;
 
     &:hover {
@@ -149,13 +108,15 @@ header {
   position: relative;
 
   &::after {
-    content: "|";
-    color: $color-dark;
+    content: "";
+    height: 5px;
+    width: 5px;
+    background-color: $color-main;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.3;
+    opacity: 1;
   }
 }
 

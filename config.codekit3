@@ -341,30 +341,30 @@
 		"oA": 0,
 		"oAP": "/img/slide-1-img@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/slide-2-img.png": {
+		"ft": 32768,
+		"iS": 635142,
+		"oA": 0,
+		"oAP": "/img/slide-2-img.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"/img/slide-2-img@2x.png": {
 		"ft": 32768,
-		"iS": 2575214,
+		"iS": 2495290,
 		"oA": 0,
 		"oAP": "/img/slide-2-img@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/slide-3-img@2x.png": {
-		"ft": 32768,
-		"iS": 1820305,
-		"oA": 0,
-		"oAP": "/img/slide-3-img@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -377,17 +377,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/img/slide-5-img@2x.png": {
-		"ft": 32768,
-		"iS": 1727715,
-		"oA": 0,
-		"oAP": "/img/slide-5-img@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/img/slide-bg@2x.jpg": {

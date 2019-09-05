@@ -1,4 +1,24 @@
+body {
+  background-color: #F7F7F7;
+  position: relative;
+}
+
 .container {
   width: 95%;
-  max-width: 1200px;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+
+.containerish {
+  width: 95%;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+
+section {
+  overflow: hidden;
 }

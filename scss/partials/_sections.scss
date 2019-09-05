@@ -295,7 +295,7 @@ main {
       background-color: #fff;
       width: 100%;
       margin: 1rem auto 0 auto;
-      padding: 1rem 2rem;
+      padding: 3rem 2rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -329,5 +329,22 @@ main {
     .outer-wrap:last-child {
       margin-bottom: 0;
     }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* APPOINTMENTS SECTION */
+/* -------------------------------------------------------------------------- */
+.appointments {
+  background: url('../../img/appointment-bg@2x.jpg') center / cover;
+  min-height: 50vh;
+  max-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .section-info {
+    // background: lightblue;
+    text-align: center;
   }
 }

@@ -177,3 +177,104 @@ main {
     }
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/* SERVICES SECTION */
+/* -------------------------------------------------------------------------- */
+
+.services {
+  background: $color-white;
+  padding: 40px 20px;
+
+  .section-intro {
+    text-align: center;
+  }
+
+  /* Search */
+  .search {
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+
+      .form-control {
+        border-radius: 0;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-control:not(button) {
+        border: 1px solid #ededed;
+      }
+
+      ::placeholder {
+        color: #3e3a42;
+        font-family: $font-primary;
+        font-size: 15px;
+      }
+    }
+  }
+
+  /* featured services */
+  .featured-services {
+    .containerish {
+      display: grid;
+      grid-gap: 1rem;
+
+      .col-left,
+      .col-mid,
+      .col-right {
+        text-align: center;
+
+        img {
+          margin-bottom: 1rem;
+        }
+
+        .service-list {
+          list-style-type: none;
+          margin: .5rem 0;
+          padding: 0;
+
+          li a {
+            font-family: $font-primary;
+            font-size: 14px;
+            color: $color-extra-dark;
+
+            &:hover {
+              color: $color-main;
+            }
+          }
+        }
+      }
+
+      .col-left {
+        img {
+          width: 81.6px;
+          height: 81.6px;
+        }
+      }
+
+      .col-mid {
+        img {
+          width: 117.42;
+          height: 58.71px;
+        }
+      }
+
+      .col-right {
+        img {
+          width: 90px;
+          height: 22px;
+        }
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* IMAGE ARRAY SECTION */
+/* -------------------------------------------------------------------------- */
+.img-array {
+  display: grid;
+
+
+}

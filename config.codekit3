@@ -310,7 +310,7 @@
 		"oAP": "/img/service-img-1@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/service-img-2@2x.jpg": {
@@ -321,7 +321,7 @@
 		"oAP": "/img/service-img-2@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/service-img-3@2x.jpg": {
@@ -332,7 +332,7 @@
 		"oAP": "/img/service-img-3@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/slide-1-img@2x.png": {

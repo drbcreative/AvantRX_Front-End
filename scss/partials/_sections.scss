@@ -275,6 +275,59 @@ main {
 /* -------------------------------------------------------------------------- */
 .img-array {
   display: grid;
+}
 
+/* -------------------------------------------------------------------------- */
+/* FAQ SECTION */
+/* -------------------------------------------------------------------------- */
+.faqs {
+  background: url('../../img/faqs-bg@2x.jpg') center / cover;
+  min-height: 500px;
+  padding: 40px 20px;
 
+  .containerish {
+    .section-intro {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .outer-wrap {
+      background-color: #fff;
+      width: 100%;
+      margin: 1rem auto 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+
+      .message-wrap {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+
+        &.show {
+          max-height: 999px;
+          transition: all 1s ease-in-out;
+          /* animation: dropdown 1s ease-in-out forwards; */
+        }
+      }
+
+      p {
+        max-width: 750px;
+        margin-bottom: 1rem;
+        text-align: left;
+      }
+
+      .toggle-btn {
+        width: 20px;
+        height: 30px;
+      }
+    }
+
+    .outer-wrap:last-child {
+      margin-bottom: 0;
+    }
+  }
 }

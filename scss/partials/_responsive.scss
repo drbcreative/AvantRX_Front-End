@@ -215,6 +215,39 @@
     }
   }
 
+  /* CONNECTING ************************************************************* */
+  .connecting {
+
+    .containerish {
+      // background: url('../../img/speak_with_a_doctor@2x.png') top / cover;
+      position: relative;
+      height: 900px;
+
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-40%);
+        left: 0;
+        // height: 100%;
+      }
+
+      .section-intro {
+        position: absolute;
+        width: 100%;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 56;
+        text-align: center;
+
+        p {
+          max-width: 500px;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
   /* FOOTER ***************************************************************** */
 
 
@@ -292,6 +325,38 @@
     .containerish {
       grid-template-columns: 1fr 1fr 1fr;
       grid-gap: 2rem;
+    }
+  }
+
+  /* CONNECTING ************************************************************* */
+  .connecting {
+
+    .containerish {
+      position: relative;
+      height: 1100px;
+
+      img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        // height: 100%;
+      }
+
+      .section-intro {
+        position: absolute;
+        width: 100%;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 56;
+        text-align: center;
+
+        p {
+          max-width: 500px;
+          margin: 0 auto;
+        }
+      }
     }
   }
 

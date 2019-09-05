@@ -149,3 +149,31 @@ main {
     }
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/* CONNECTING PATIENTS SECTION */
+/* -------------------------------------------------------------------------- */
+.connecting {
+  background: url('../../img/speakwith-bg@2x.jpg') top / cover;
+
+  .containerish {
+    // background: url('../../img/speak_with_a_doctor@2x.png') top / cover;
+    position: relative;
+    height: 50vh;
+
+    .section-intro {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 56;
+      text-align: center;
+
+      p {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    }
+  }
+}

@@ -53,7 +53,7 @@
       // background: red;
 
       .containerish {
-        background: url('../../img/slide-bg@2x.jpg') center / cover;
+        background: url('../img/slide-bg@2x.jpg') center / cover;
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -70,6 +70,30 @@
   .img-array {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* FOOTER ***************************************************************** */
+  .footer-1 {
+    background: $color-white;
+    padding: 40px 20px;
+
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .footer-logo {
+        width: 533.55px;
+        height: 156.9;
+        margin: 0 auto;
+      }
+
+      .footer-nav-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+      }
+    }
   }
 }
 
@@ -225,7 +249,7 @@
   .connecting {
 
     .containerish {
-      // background: url('../../img/speak_with_a_doctor@2x.png') top / cover;
+      // background: url('../img/speak_with_a_doctor@2x.png') top / cover;
       position: relative;
       height: 900px;
 
@@ -327,7 +351,28 @@
 
 
   /* FOOTER ***************************************************************** */
+  .footer-1 {
+    background: $color-white;
+    padding: 40px 20px;
 
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .footer-logo {
+        width: 533.55px;
+        height: 156.9;
+        margin: 0 auto;
+      }
+
+      .footer-nav-wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 2rem;
+      }
+    }
+  }
 
   .footer2 {
     display: flex;
@@ -340,15 +385,6 @@
 
       .foot-left {
         grid-row: 1;
-
-        .social-link {
-          color: $color-white;
-
-          &:hover {
-            color: $color-dark;
-            text-decoration: none;
-          }
-        }
       }
 
       .foot-right {
@@ -472,7 +508,29 @@
     }
   }
 
+  /* FOOTER ***************************************************************** */
+  .footer-1 {
+    background: $color-white;
+    padding: 40px 20px;
 
+    .containerish {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .footer-logo {
+        width: 533.55px;
+        height: 156.9;
+        margin: 0 auto;
+      }
+
+      .footer-nav-wrapper {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 1rem;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -503,6 +561,23 @@
       .section-intro {
         grid-row: 1;
         grid-column: 1 / -1;
+      }
+    }
+  }
+
+  /* FOOTER ***************************************************************** */
+  .footer-1 {
+    padding: 100px 20px;
+
+    .containerish {
+
+      .line {
+        margin: 6rem 0;
+      }
+
+      .footer-nav-wrapper {
+        grid-template-columns: repeat(7, 1fr);
+        grid-gap: 3rem;
       }
     }
   }

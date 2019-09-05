@@ -22,3 +22,22 @@ body {
 section {
   overflow: hidden;
 }
+
+/* Slick Mods */
+.slick-dots {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+
+  @media screen and (min-width: 768px) {
+    left: 0;
+    transform: translateX(0);
+    padding-left: 3.6rem;
+  }
+}

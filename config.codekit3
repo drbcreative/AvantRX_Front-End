@@ -368,6 +368,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/slide-3-img.png": {
+		"ft": 32768,
+		"iS": 506323,
+		"oA": 0,
+		"oAP": "/img/slide-3-img.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/slide-3-img@2x.png": {
+		"ft": 32768,
+		"iS": 1975049,
+		"oA": 0,
+		"oAP": "/img/slide-3-img@2x.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/slide-4-img.png": {
+		"ft": 32768,
+		"iS": 645043,
+		"oA": 0,
+		"oAP": "/img/slide-4-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/img/slide-4-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 192727,
@@ -377,6 +410,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/slide-4-img@2x.png": {
+		"ft": 32768,
+		"iS": 2099425,
+		"oA": 0,
+		"oAP": "/img/slide-4-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/slide-5-img.png": {
+		"ft": 32768,
+		"iS": 418576,
+		"oA": 0,
+		"oAP": "/img/slide-5-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/slide-5-img@2x.png": {
+		"ft": 32768,
+		"iS": 1720888,
+		"oA": 0,
+		"oAP": "/img/slide-5-img@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/img/slide-bg@2x.jpg": {
@@ -867,6 +933,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/video/phone_animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/phone_animation.mp4",
+		"oF": 0
 		}
 	},
 "hooks": [

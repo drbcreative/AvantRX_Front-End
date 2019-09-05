@@ -9,10 +9,15 @@ main {
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  background: url('../../img/hero-bg@2x.jpg') center / cover;
+  background: url('../img/hero-bg@2x.jpg') center / cover;
+  position: relative;
 
   .slick-dotted.slick-slider {
     margin-bottom: 0;
+  }
+
+  #carousel-wrapper {
+    position: relative;
   }
 
   .slide-wrapper {
@@ -25,7 +30,7 @@ main {
 
     .containerish {
       width: 100%;
-      background: url('../../img/slide-bg@2x.jpg') center / cover;
+      background: url('../img/slide-bg@2x.jpg') center / cover;
       display: grid;
       grid-template-columns: 1fr;
       align-items: center;
@@ -40,12 +45,23 @@ main {
         }
       }
 
-      .section-img {
+      .section-img:not(#slide-4-img) {
         position: absolute;
         bottom: 0;
         right: 2%;
-        height: 500px;
+        height: 550px;
         width: auto;
+      }
+
+      #slide-4-img {
+        height: 50%;
+        width: auto;
+        bottom: 50%;
+        transform: translateY(50%);
+
+        @media screen and (min-width: 1200px) {
+          height: 385px;
+        }
       }
     }
   }
@@ -87,7 +103,7 @@ main {
 /* HOW IT WORKS SECTION */
 /* -------------------------------------------------------------------------- */
 .howitworks {
-  background: url('../../img/howitworks-bg@2x.jpg') center / cover;
+  background: url('../img/howitworks-bg@2x.jpg') center / cover;
   padding: 40px 20px;
 
   .containerish {
@@ -96,6 +112,13 @@ main {
     grid-gap: 1rem;
 
     .feature-box {
+      opacity: 0;
+      transition: all 1s ease-in-out;
+
+      &.show {
+        opacity: 1;
+        transition: all 1s ease-in-out;
+      }
 
       .box-img {
         width: 100%;
@@ -131,7 +154,7 @@ main {
 
   .containerish {
     width: 100%;
-    background: url('../../img/pricing-bg@2x.jpg') center / cover;
+    background: url('../img/pricing-bg@2x.jpg') center / cover;
     display: grid;
     grid-gap: 1rem;
     padding: 40px 20px;
@@ -154,10 +177,10 @@ main {
 /* CONNECTING PATIENTS SECTION */
 /* -------------------------------------------------------------------------- */
 .connecting {
-  background: url('../../img/speakwith-bg@2x.jpg') top / cover;
+  background: url('../img/speakwith-bg@2x.jpg') top / cover;
 
   .containerish {
-    // background: url('../../img/speak_with_a_doctor@2x.png') top / cover;
+    // background: url('../img/speak_with_a_doctor@2x.png') top / cover;
     position: relative;
     height: 50vh;
 
@@ -281,7 +304,7 @@ main {
 /* FAQ SECTION */
 /* -------------------------------------------------------------------------- */
 .faqs {
-  background: url('../../img/faqs-bg@2x.jpg') center / cover;
+  background: url('../img/faqs-bg@2x.jpg') center / cover;
   min-height: 500px;
   padding: 40px 20px;
 
@@ -336,7 +359,7 @@ main {
 /* APPOINTMENTS SECTION */
 /* -------------------------------------------------------------------------- */
 .appointments {
-  background: url('../../img/appointment-bg@2x.jpg') center / cover;
+  background: url('../img/appointment-bg@2x.jpg') center / cover;
   min-height: 50vh;
   max-height: 600px;
   display: flex;

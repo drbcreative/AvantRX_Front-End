@@ -123,3 +123,29 @@ main {
     }
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/* PAY PER VISIT SECTION */
+/* -------------------------------------------------------------------------- */
+.paypervisit {
+
+  .containerish {
+    width: 100%;
+    background: url('../../img/pricing-bg@2x.jpg') center / cover;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 40px 20px;
+
+    .col-left,
+    .col-right {
+      background: rgba($color-white, .74);
+      box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+      text-align: center;
+      padding: 40px 20px;
+
+      .strike {
+        text-decoration: line-through;
+      }
+    }
+  }
+}

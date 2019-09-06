@@ -25,7 +25,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 500px;
+    height: 600px;
     // background: red;
 
     .containerish {
@@ -35,7 +35,7 @@ main {
       grid-template-columns: 1fr;
       align-items: center;
       position: relative;
-      height: 500px;
+      height: 600px;
 
       .section-info {
         padding: 0 20px;
@@ -135,8 +135,15 @@ main {
         grid-template-columns: min-content 1fr;
 
         .box-content-left {
+          padding-left: 1rem;
           height: 86px;
           width: 86px;
+
+          video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
         }
 
         .box-content-right {
@@ -162,7 +169,7 @@ main {
     .col-left,
     .col-right {
       background: rgba($color-white, .74);
-      box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+      box-shadow: 0 0 20px rgba(0, 0, 0, .07);
       text-align: center;
       padding: 40px 20px;
 
@@ -225,8 +232,13 @@ main {
         margin-bottom: 0.5rem;
       }
 
+      button {
+        line-height: 0;
+      }
+
       .form-control:not(button) {
         border: 1px solid #ededed;
+        padding: 1.5rem .5rem;
       }
 
       ::placeholder {
@@ -271,22 +283,22 @@ main {
 
       .col-left {
         img {
-          width: 81.6px;
-          height: 81.6px;
+          width: 123px;
+          height: 91px;
         }
       }
 
       .col-mid {
         img {
-          width: 117.42;
-          height: 58.71px;
+          width: 123px;
+          height: 91px;
         }
       }
 
       .col-right {
         img {
-          width: 90px;
-          height: 22px;
+          width: 123px;
+          height: 91px;
         }
       }
     }
@@ -346,6 +358,7 @@ main {
       .toggle-btn {
         width: 20px;
         height: 30px;
+        cursor: pointer;
       }
     }
 
@@ -361,7 +374,7 @@ main {
 .appointments {
   background: url('../img/appointment-bg@2x.jpg') center / cover;
   min-height: 50vh;
-  max-height: 600px;
+  max-height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -9,7 +9,7 @@
   .ui-btn {
     display: inline-flex;
     width: auto;
-    padding: 0.8rem 0.5rem;
+    padding: 1.5rem 0.5rem;
   }
 }
 
@@ -105,7 +105,7 @@
   .ui-btn {
     display: inline-flex;
     width: auto;
-    padding: 0.8rem 0.5rem;
+    // padding: 0.8rem 0.5rem;
     width: 225px;
   }
 
@@ -228,8 +228,6 @@
 
       .col-left,
       .col-right {
-        background: rgba($color-white, .74);
-        box-shadow: 0 0 20px rgba(0, 0, 0, .2);
         text-align: center;
         padding: 40px 20px;
 
@@ -403,6 +401,7 @@
   .topbar {
 
     .containerish {
+      grid-gap: 0;
 
       .col-mid {
         display: flex;
@@ -444,6 +443,7 @@
 
   /* CONNECTING ************************************************************* */
   .connecting {
+    padding: 3rem 0;
 
     .containerish {
       position: relative;
@@ -508,6 +508,18 @@
     }
   }
 
+  /* FAQs ******************************************************************* */
+  .faqs {
+    padding: 6rem 0;
+  }
+
+  /* APPOINTMENTS *********************************************************** */
+  .appointments {
+    min-height: 70vh;
+    max-height: 800px;
+
+  }
+
   /* FOOTER ***************************************************************** */
   .footer-1 {
     background: $color-white;
@@ -545,18 +557,6 @@
       grid-row-gap: 1rem;
       grid-column-gap: 6rem;
       padding: 60px 6rem;
-
-      .col-left,
-      .col-right {
-        background: rgba($color-white, .74);
-        box-shadow: 0 0 20px rgba(0, 0, 0, .2);
-        text-align: center;
-        padding: 40px 20px;
-
-        .strike {
-          text-decoration: line-through;
-        }
-      }
 
       .section-intro {
         grid-row: 1;

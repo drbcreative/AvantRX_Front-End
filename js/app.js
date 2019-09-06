@@ -1,5 +1,7 @@
 /* Menu Background */
-const headerMain = document.querySelector('header');
+const headerMain = document.querySelector('header'),
+  animatedLogo = document.querySelector('#animated-logo'),
+  staticLogo = document.querySelector('#static-logo');
 
 window.addEventListener('resize', () => {
   if (window.innerWidth >= 992 && window.scrollY > 50) {
@@ -10,8 +12,12 @@ window.addEventListener('resize', () => {
 window.addEventListener('scroll', () => {
   if (window.innerWidth >= 992 && window.scrollY > 50) {
     headerMain.classList.add('show');
+    animatedLogo.style.display = "none";
+    staticLogo.style.display = "block";
   } else {
     headerMain.classList.remove('show');
+    animatedLogo.style.display = "block";
+    staticLogo.style.display = "none";
   }
 });
 
@@ -40,8 +46,7 @@ window.addEventListener('scroll', () => {
 
 
 /* FAQs */
-const msgWrap = document.querySelectorAll('.message-wrap'),
-  toggleBtn = document.querySelectorAll('.toggle-btn'),
+const toggleBtn = document.querySelectorAll('.toggle-btn'),
   toggles = [
     'img/question-open.svg',
     'img/question-close.svg'

@@ -168,16 +168,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/elipse_icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/elipse_icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/img/faqs-bg@2x.jpg": {
 		"ft": 16384,
 		"iS": 165064,
@@ -204,16 +194,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/happy_icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/health_icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/health_icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -287,16 +267,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/img/question-open.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/rainbow_icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/rainbow_icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -933,6 +903,22 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/video/chat_animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/chat_animation.mp4",
+		"oF": 0
+		},
+	"/video/face_animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/face_animation.mp4",
+		"oF": 0
 		},
 	"/video/phone_animation.mp4": {
 		"cB": 0,

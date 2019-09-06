@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="118.922" height="59.461" viewBox="0 0 118.922 59.461"><g transform="translate(-7.25 -27.25)"><path d="M8,86.711a58.711,58.711,0,0,1,117.422,0" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/><path d="M18.909,81.608a42.7,42.7,0,0,1,85.4,0" transform="translate(5.103 5.103)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/><path d="M28.672,77.041a28.369,28.369,0,0,1,56.738,0" transform="translate(9.67 9.67)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/><path d="M39.582,71.938a12.356,12.356,0,1,1,24.711,0" transform="translate(14.773 14.773)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="91" viewBox="0 0 123 91">
+  <g id="rainbow_icon" transform="translate(-5 -2.711)">
+    <rect id="Rectangle_309" data-name="Rectangle 309" width="123" height="91" transform="translate(5 2.711)" fill="#fff" opacity="0.553"/>
+    <path id="Path_132" data-name="Path 132" d="M8,86.711a58.711,58.711,0,0,1,117.422,0" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_133" data-name="Path 133" d="M18.909,81.608a42.7,42.7,0,0,1,85.4,0" transform="translate(5.103 5.103)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_134" data-name="Path 134" d="M28.672,77.041a28.369,28.369,0,0,1,56.738,0" transform="translate(9.67 9.67)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="Path_135" data-name="Path 135" d="M39.582,71.938a12.356,12.356,0,1,1,24.711,0" transform="translate(14.773 14.773)" fill="none" stroke="#2c3d43" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>
